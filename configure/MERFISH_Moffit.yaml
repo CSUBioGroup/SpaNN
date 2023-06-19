@@ -5,7 +5,7 @@ magic: magic
 spatial_file: ./data/MERFISH_extract0.csv.pkl
 scrna_file: ./data/Moffit_magic.txt.pkl
 loc_file: ./data/MERFISH_extract0_Locations.csv
-neighbor_file: /home/wangwk/singlecell/ST_RNA/Lasso/model/w_{0}_{1}_{2}_fold{3}.pkl
+neighbor_file: ./data/w_{0}_{1}_{2}_fold{3}.pkl
 
 train:
   name: train
