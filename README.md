@@ -9,6 +9,11 @@ A flexible deep neural network framework for predicting the transcript distribut
 - pandas 1.4.4
 - scikit-learn 1.0.2
 
+
+## Data Available
+The data used in our research can be downloaded from https://zenodo.org/record/8063157
+
+
 ## Process
 1. Unzip data and make dir for saved_model and results.
 ```
