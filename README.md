@@ -12,6 +12,7 @@ A flexible deep neural network framework for predicting the transcript distribut
 - logzero
 - ruamel.yaml
 - click
+- torchvision
 
 ## Data Available
 The data used in our research can be downloaded from https://zenodo.org/record/8063157
