@@ -8,7 +8,10 @@ A flexible deep neural network framework for predicting the transcript distribut
 - numpy 1.21.6
 - pandas 1.4.4
 - scikit-learn 1.0.2
-
+- tqdm
+- logzero
+- ruamel.yaml
+- click
 
 ## Data Available
 The data used in our research can be downloaded from https://zenodo.org/record/8063157
@@ -24,7 +27,7 @@ mkdir saved_model
 
 2. Run preprocess.py to generate positive samples between spatial transcriptomics.
 ```
-python prerocess.py -c ./configure/osmFISH_Zeisel.yaml
+python prerpocess.py -c ./configure/osmFISH_Zeisel.yaml
 ```
 
 3. Run main.py to train and predict the transcript distribution of the spatial transcriptomics.
