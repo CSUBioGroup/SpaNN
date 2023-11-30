@@ -11,6 +11,8 @@ from pathlib import Path
 
 from utils import read_pkl, save_pkl
 
+import click
+import main
 
 @click.command()
 @click.option('-c', '--config', type=click.Path(exists=True))
@@ -53,4 +55,3 @@ def get_lasso(config):
 
 if __name__=='__main__':
     main()
-    
